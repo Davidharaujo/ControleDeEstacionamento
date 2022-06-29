@@ -44,13 +44,13 @@ button:hover, #cadastrar:hover {
 
 table {
     display: flex;
-    flex-wrap: wrap;
     background-color: #fff;
     border: 1px #555555 solid;
     border-radius: 20px;
     width: 80%;
     justify-content: center;
     align-items: center;
+    flex-flow: column wrap;
 }
 
 th {
@@ -62,6 +62,13 @@ tbody {
     width: 90%;
     align-items: center;
     justify-content: center;
+    flex-flow: column wrap;
+}
+
+tr {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
 }
 
 td {
@@ -70,6 +77,7 @@ td {
     text-align: center;
     align-self: center;
     text-transform: uppercase;
+    flex-wrap: wrap;
 }
 
 td button {
